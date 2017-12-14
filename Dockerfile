@@ -20,7 +20,7 @@ RUN apk update && apk upgrade \
 # Compile sources
 git clone -b master https://gitlab.labs.nic.cz/knot/knot-dns.git /knot-src && \
 cd /knot-src && \
-git checkout tags/v2.5.3 && \
+git checkout tags/v2.6.3 && \
 autoreconf -if && \
 ./configure --disable-static --enable-fastparser --disable-documentation && \
 make -j${THREADS} && \
