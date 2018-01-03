@@ -28,7 +28,7 @@ cd fstrm &&\
 cd &&\
 git clone https://gitlab.labs.nic.cz/knot/knot-dns.git && \
 cd knot-dns && \
-git checkout tags/v2.6.3 && \
+git checkout tags/v2.6.4 && \
 autoreconf -if && \
 ./configure --disable-static --enable-fastparser --disable-documentation && \
 make -j${THREADS} && \
